@@ -11,3 +11,9 @@ p "Enter at least 2 numbers, separated by spaces:"
 user_string = gets.chomp
 
 user_numbers = user_string.split
+
+find_number = user_numbers.at(-2)
+
+square = find_number.to_f
+
+p square**2
